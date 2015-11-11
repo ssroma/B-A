@@ -1,0 +1,47 @@
+											/* deleteUser.css */
+
+
+#wrapper{
+  margin: 10px auto;
+  width: 100%;
+}	
+#wrapper #innerBox{
+  width: 98%;
+  margin: 5% auto;
+  /* outline: 1px solid red; */
+}		
+#wrapper h1{
+  margin-bottom: 30px;	
+}	
+#radioForm{
+  width: 50%;
+  margin: 0 auto;  
+}
+#radioForm p{
+  margin: 0 0 5px 0;	
+}
+#deleteUserDiv{
+  display: block;
+  padding: 10px;
+}							
+.deleteUserRadios{
+  width: 10%;
+  height: 20px; 
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;	
+}
+.deleteUserRadios:active{
+	outline: none;
+}
+.stuffLinks{
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  clear: both;
+}
+.toLeftBut{ /* All input button */
+  width: 45%;
+  float: left;
+  height: 45px;
+}

@@ -1,0 +1,40 @@
+												/* addUser.css */
+.buttonAddUser{
+  display: block;
+  width: 48%;
+  float: left;
+  height: 45px;
+  color: #0f11e8;
+  background: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: .8em;
+  margin: 2px 2px 5px 2px;
+}
+.buttonAddUser:hover{ 
+  background-color: rgba(15,17,232, 0.2);	
+}
+.stuffLinks{
+  clear: both;
+}
+.stuffLinks{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 32px; 
+}
+.stuffLinks a{
+  display: block;
+  width: 33%;
+  height: 30px;
+  line-height: 30px;
+  float: left;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: .8em;
+}
+.stuffLinks  a:hover{
+  background-color: rgba(15,17,232, 0.2);	
+}

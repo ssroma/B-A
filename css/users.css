@@ -1,0 +1,43 @@
+												/* users.css */
+#wrapper{
+  margin: 100px auto;
+}
+#wrapper #innerBox {
+ margin: 2px auto;
+}
+#headerUser h1{
+  margin: 0;
+}
+.usersForm .usersFormImage{
+  width: 180px;
+  height: 200px;
+  float: left;
+}
+#formUsers  p.toLeft{
+  margin: 6px 13px 0 0;
+}
+#formUsers  p.toLeft input{
+  width: 100%;
+}
+.usersLinks{
+  position: relative;
+  margin: 10px 0;
+  display: block;
+  width: 100%;
+  height: 32px; 
+}
+.usersLinks a{
+  display: block;
+  width: 33%;
+  height: 30px;
+  line-height: 30px;
+  float: left;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: .8em;
+}
+.usersLinks a:hover{
+  background-color: rgba(15,17,232, 0.2);	
+}
+

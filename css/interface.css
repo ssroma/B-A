@@ -1,0 +1,53 @@
+											/* interface.css */
+											
+.searchForm .inputButton{
+  width: 50%;
+  height: 45px;
+  text-align: center;
+  background-color: white;
+  margin: 15px auto 20px auto;
+  color: #0f11e8;
+  font-size: 1.3em;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.inputButton:hover{
+  background-color: rgba(15,17,232, 0.2);	
+}
+#headerInterface{
+	
+}	
+#headerInterface h1{
+  text-align: center;
+}
+/* #headerInterface p{
+  text-align: right;
+  margin: 0;
+  font-size: .8em;
+} */
+#innerBox .searchForm form{
+  margin: 0 auto;
+  text-align: center;  
+}		
+.searchLinks{
+  width: 98%;
+  margin: 0 auto;
+  /* outline: 1px solid black; */
+}
+.searchLinks a{
+  text-decoration: none;
+  display: block;
+  width: 48%;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;  
+  margin: 1px auto 0px 5px; 
+  float: left; 
+  border: 1px solid #0f11e8;
+  border-radius: 5px;
+  color: #0f11e8;
+  font-size: 1.3em;
+}		
+.searchLinks a:hover{
+  background-color: rgba(15,17,232, 0.2);	
+}			

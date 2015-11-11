@@ -1,0 +1,125 @@
+                                       /* mainStyle.css */
+									   
+*{
+  font-family:'paytone one', sans-serif;  
+	
+	
+}
+body{
+  font-size: 16px;
+  color: #0f11e8;
+  margin: 0;
+  padding: 0;
+}
+.clear{ 
+  clear: both;	
+}
+h1{ /*  all H1  */
+  font-size: 3.2em;
+  text-align: center;
+  margin: 0;
+}
+#headerUser p, #headerInterface p, #headingAddStuff p, #headingAddUser p{ /* all P greetings*/
+  text-align: right;
+  margin: 0;
+  font-size: .7em;
+}
+a:visited{ /* All links A*/
+  color: #0f11e8;	
+}
+.error{
+  color: red;
+  font-size: 0.7em;
+}
+.spanUser{	 /* <p>Hello <span class="spanUser">  */
+  text-align: right;
+  font-size: 1.2em;
+}	
+.toLeftBut{ /* All input button */
+  width: 60%;
+  display: block;
+  height: 45px;
+  background-color: white;
+  margin: 0 auto;
+  color: #0f11e8;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.toLeftBut:hover{ /* All input button:hover */
+  background-color: rgba(15,17,232, 0.2);	
+}
+input{   /*  all inputs */
+  width: 60%;
+  height: 27px; 
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+input:active{
+  outline: 1px solid #0f11e8;
+}
+input:focus{
+  border: 1px solid #0f11e8;
+  border-radius: 5px;
+}
+#wrapper{
+  positon: relative;	
+  width: 40%;
+  height: auto;
+  margin: 140px auto;
+  /* outline: 1px solid black;  */ 
+}
+#wrapper #innerBox{
+  display: block;
+  position: relative;
+  width: 90%;
+  height: inherit;
+  margin: 10% auto;
+  /* outline: 1px solid red; */
+}
+#innerBox  #indexForm{
+  width: 96%;
+  text-align: center;
+  padding: 2%; 
+  margin: 0px auto 40px auto; 
+ /*  border: 1px solid blue; */	  
+}
+#innerBox  #indexForm .allP{	
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+#innerBox  #indexForm .allP input{
+  width: 60%;
+  height: 27px; 
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+#innerBox  #indexForm .allP input:focus{
+  border-color: #0f11e8;  	
+}
+#innerBox  #indexForm .allP .inputButton{
+  width: 60%;
+  height: 45px;
+  text-align: center;
+  background-color: white;
+  margin: 26px auto 20px auto;
+  color: #0f11e8;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 7px;
+}
+#innerBox  #indexForm .allP .inputButton:hover{
+  background-color: rgba(15,17,232, 0.2);	
+}
+
+
+
+
+
+
+

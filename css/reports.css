@@ -1,0 +1,135 @@
+							/* reports.css */
+							
+#wrapperReports{
+  width: 90%;
+  margin: 50px auto;
+}							
+
+
+#reportsLinks{
+  width: 50%;
+  margin: 5px auto;
+  padding: 20px;		
+}							
+#reportsLinks a{
+  width: 450px;
+  height: 45px;
+  margin: 5px auto;
+  line-height: 45px;
+  display: block; 
+  text-align: center;  
+  text-decoration: none;
+  font-size: 1.2em;
+	
+}	
+#reportsLinks input{
+  width: 50%;
+  height: 20px;
+}
+#reportsLinks input.toLeftBut{ /* All input button */
+  width: 60%;
+  display: block;
+  height: 45px;
+  background-color: white;
+  margin: 0 auto;
+  color: #0f11e8;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 7px;
+}												
+.innerDivs{
+  width: 500px;
+  height: 200px;
+  display: none;
+}
+#queriiesPlace{
+  width: 90%;
+  margin: 0 auto;
+}
+#queriesResponse{
+ width: 100%;
+ border-collapse: collapse;
+ 
+}
+#queriesResponse tr th{
+ font-size: 1.6em;
+ 
+}
+tr, th, td {
+ border: 1px solid black;
+ padding: 10px 13px;
+ text-align: center;
+}
+
+							
+#queriesResponse tr:nth-child(even){
+  background-color: lightgray;
+}
+#dateHour{
+  width: 200px;
+  float: right;
+  text-align: center;
+}
+#dateHour span{
+  text-align: center;	
+}
+.searchLinks{
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+}
+.searchLinks a{
+  display: block;
+  width: 16%;
+  margin: 11px 0 0 0;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: .8em;
+  float: left;
+}
+.searchLinks a:hover{
+  background-color: rgba(15,17,232, 0.2);	
+}
+.closeButton{
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 7px 10px 0 0;
+  line-height: 25px;
+  float: right;
+  padding: 3px;
+  border: 1px solid #0f11e8;
+  border-radius: 80px;
+  text-align: center;
+  font-size: 24px;
+  display: none;	
+  cursor: pointer;
+}
+.closeButton:hover{
+  background-color: rgba(15,17,232, 0.2);
+  border: 1px solid white;  
+}
+#divPrinting{
+  display: block;
+  width: 60%;
+  margin: 5px auto;
+}
+.divPrinting{
+  display: block;
+  width: 48%;
+  float: left;
+  height: 45px;
+  color: #0f11e8;
+  background: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: .8em;
+  margin: 2px 2px 5px 2px;		
+}
+.divPrinting:hover{
+  background-color: rgba(15,17,232, 0.2);	
+}

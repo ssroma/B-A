@@ -1,0 +1,69 @@
+                                       /* mainStyle.css */
+									   
+#wrapper{
+ width: 90%;
+ margin: 10px auto;
+}
+#wrapper h1{
+ text-align: center;
+ padding: 20px;
+}
+.tableWrapper{
+ width: 90%;
+ margin: 10px auto;
+ border: 1px solid black;
+}
+table{
+ width: 100%;
+ border-collapse: collapse;
+ 
+}
+tr:nth-child(even) {
+ background-color: #eee;
+}
+tr th{
+ font-size: 1.6em;
+ 
+}
+tr, th, td {
+   border: 1px solid black;
+   padding: 10px 13px;
+}
+.searchLinks{
+  width: 88%;
+  height: 50px;
+  margin: 0 auto;
+  padding: 0 20px 0 0;
+}
+.searchLinks a{
+  display: block;
+  width: 150px;
+  margin: 0 50px 0 0;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: .8em;
+  float: left;
+}
+.searchLinks a:hover{
+  background-color: rgba(15,17,232, 0.2);	
+}
+.entrncasBotton{
+  display: block;
+  width: 20%;
+  height: 45px;
+  line-height: 45px;
+  color:  #0f11e8;
+  float: right;
+  border: 1px solid #0f11e8;
+  border-radius: 5px;
+  text-align: center;
+  background: white;
+  cursor: pointer;
+  margin: 0 5px 0 0;
+}
+.entrncasBotton:hover{
+  background-color: rgba(15,17,232, 0.2);
+}									   
